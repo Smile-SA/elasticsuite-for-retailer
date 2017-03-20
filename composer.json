@@ -1,0 +1,44 @@
+{
+    "name": "smile/elasticsuite-for-retailer",
+    "type": "magento2-component",
+    "license": "OSL-3.0",
+    "authors": [
+        {
+            "name": "Aurélien FOUCRET",
+            "email": "aurelien.foucret@smile.fr"
+        },
+        {
+            "name": "Romain RUAUD",
+            "email": "romain.ruaud@smile.fr"
+        }
+    ],
+    "description": "Smile ElasticSuite for Retailers - Magento2 toolkit for Retailers : Store Locator, Availability and Prices per store, etc...",
+    "homepage": "https://github.com/Smile-SA/elasticsuite-retailers",
+    "keywords": [
+        "magento",
+        "magento2",
+        "elasticsearch",
+        "search",
+        "merchandising",
+        "retailer",
+        "store locator"
+    ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://repo.magento.com/"
+        }
+    ],
+    "require": {
+        "smile/elasticsuite": "*",
+        "magento/magento-composer-installer": "*",
+        "smile/module-offer": "^1.2.0",
+        "smile/module-seller": "^1.2.0",
+        "smile/module-retailer": "^1.2.0",
+        "smile/module-store-locator": "^1.2.0",
+        "smile/module-retailer-offer": "^1.2.0"
+    },
+    "require-dev": {
+        "smile/magento2-smilelab-quality-suite": "1.0.0"
+    }
+}
