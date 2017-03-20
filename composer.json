@@ -30,7 +30,7 @@
         }
     ],
     "require": {
-        "smile/elasticsuite": "*",
+        "smile/elasticsuite": "^2.3.3",
         "magento/magento-composer-installer": "*",
         "smile/module-offer": "^1.2.0",
         "smile/module-seller": "^1.2.0",
