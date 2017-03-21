@@ -1,6 +1,6 @@
 {
     "name": "smile/elasticsuite-for-retailer",
-    "type": "magento2-component",
+    "type": "metapackage",
     "license": "OSL-3.0",
     "authors": [
         {
