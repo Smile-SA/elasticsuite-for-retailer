@@ -50,16 +50,20 @@ Your customer will be able to choose his favorite shop and this will keep it dur
 
     This features let you create **specific offers for a given product and a given shop** : you'll be able to define the price and/or the availability for a product in each shop.
 
-![Offer Step one](doc/static/offer-step-one.png)
-![Offer Step two](doc/static/offer-step-two.png)
+<p align="center">
+    <img alt="Offer Step one" src="doc/static/offer-step-one.png" />
+    <img alt="Offer Step two" src="doc/static/offer-step-two.png" />
+</p>
 
-You will be able to enable an option to filter the navigation of the customer to the products available in his favorite shop :
+   You will be able to enable an option to filter the navigation of the customer to the products available in his favorite shop :
 
 <p align="center">
     <img alt="Shop Availability" src="doc/static/shop-availability.png" />
 </p>
 
-The customer will even have the possibility to see **product's availability in the other shops** on the product detail page.
+<br/>
+
+The customer will even have the possibility to see **product's availability in the other shops** on the product detail page :
 
 <p align="center">
     <img alt="Shop Offer List" src="doc/static/shop-offer-list.png" />
