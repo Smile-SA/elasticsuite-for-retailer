@@ -12,6 +12,8 @@ This package is a suite of several modules aiming to help merchants dealing with
 
 The package relies on our custom Search and Merchandising tool called ElasticSuite which can be found [here](https://github.com/Smile-SA/elasticsuite).
 
+For more information, read <strong>the User Guide Smile ElasticSuite for retailer Magento 2</strong>. It's available [here](https://github.com/vipra93/elasticsuite-for-retailer/blob/master/doc/static/User%20Guide%20Smile%20ElasticSuite%20for%20Retailer%20Magento%202%20v1.pdf).
+
 ## Who is developping ElasticSuite for Retailer ?
 
 <p align="center">
@@ -87,6 +89,5 @@ The next versions that will be coming will include the following features :
 
 ## Documentation
 
-Documentation is available [here](https://github.com/Smile-SA/elasticsuite-for-retailer/wiki).<br/>
-User Guide for Magento 2 is available [here](https://github.com/vipra93/elasticsuite-for-retailer/blob/master/doc/static/User%20Guide%20Smile%20ElasticSuite%20for%20Retailer%20Magento%202%20v1.pdf)
+Documentation is available [here](https://github.com/Smile-SA/elasticsuite-for-retailer/wiki).
 
