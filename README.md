@@ -88,5 +88,5 @@ The next versions that will be coming will include the following features :
 ## Documentation
 
 Documentation is available [here](https://github.com/Smile-SA/elasticsuite-for-retailer/wiki).
-
+User Guide for Magento 2 is available [here](https://github.com/vipra93/elasticsuite-for-retailer/blob/master/doc/static/User%20Guide%20Smile%20ElasticSuite%20for%20Retailer%20Magento%202%20v1.pdf)
 
