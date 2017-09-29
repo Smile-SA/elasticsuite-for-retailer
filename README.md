@@ -71,13 +71,24 @@ The customer will even have the possibility to see **product's availability in t
     <img alt="Shop Offer List" src="doc/static/shop-offer-list.png" />
 </p>
 
+* **In Store delivery :**
+
+    This feature allow the customer to choose between stores for the shipping address of his order.
+
+<p align="center">
+    <img alt="Store Delivery" src="doc/static/home-store-delivery.png" />
+</p>
+
+This is handled during checkout via a Store chooser in a popin.
+
+
+<p align="center">
+    <img alt="Store Delivery" src="doc/static/store-delivery-chooser.png" />
+</p>
+
 ### And more to come !
 
 The next versions that will be coming will include the following features :
-
-* **In Store pickup :**
-
-    This feature will allow the customer to choose between stores for the shipping address of his order.
 
 * **Shops in autocomplete :**
 
