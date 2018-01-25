@@ -32,12 +32,12 @@
     "require": {
         "smile/elasticsuite": "^2.3.3",
         "magento/magento-composer-installer": "*",
-        "smile/module-offer": "^1.2.0",
+        "smile/module-offer": "^1.3.0",
         "smile/module-seller": "^1.2.0",
         "smile/module-retailer": "^1.2.0",
         "smile/module-store-locator": "^1.3.0",
-        "smile/module-retailer-offer": "^1.2.0",
-        "smile/module-store-delivery": "^1.0.0"
+        "smile/module-retailer-offer": "^1.3.0",
+        "smile/module-store-delivery": "^1.1.0"
     },
     "require-dev": {
         "smile/magento2-smilelab-quality-suite": "1.0.0"
