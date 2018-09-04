@@ -41,5 +41,8 @@
     },
     "require-dev": {
         "smile/magento2-smilelab-quality-suite": "1.0.0"
+    },
+    "suggest": {
+        "smile/module-retailer-offer-inventory": "Add inventory management by offers"
     }
 }
