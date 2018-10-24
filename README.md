@@ -6,6 +6,43 @@ Due to all new paradigms introduced by Magento 2.1 (entity manager, forms based 
 
 If your project is based on Magento 2.1.x you can start working with ElasticSuite for Retailer today using the latest **1.2.0-alpha1 release**.
 
+### Requirements
+
+The module requires :
+
+- [ElasticSuite](https://github.com/Smile-SA/elasticsuite) > 2.3.3*
+- [Offer](https://github.com/Smile-SA/magento2-module-offer) > 1.3.*
+- [Seller](https://github.com/Smile-SA/magento2-module-seller) > 1.2.*
+- [Retailer](https://github.com/Smile-SA/magento2-module-retailer) > 1.2.*
+- [Store Locator](https://github.com/Smile-SA/magento2-module-store-locator) > 1.3.*
+- [Retailer Offer](https://github.com/Smile-SA/magento2-module-retailer-offer) > 1.3.*
+- [Store Delivery](https://github.com/Smile-SA/magento2-module-store-delivery) > 1.1.*
+
+### How to use
+
+1. Install the module via Composer :
+
+``` composer require smile/elasticsuite-for-retailer ```
+
+2. Enable it
+
+``` bin/magento module:enable Smile_Offer ```
+
+``` bin/magento module:enable Smile_Seller ```
+
+``` bin/magento module:enable Smile_Retailer ```
+
+``` bin/magento module:enable Smile_StoreLocator ```
+
+``` bin/magento module:enable Smile_RetailerOffer ```
+
+``` bin/magento module:enable Smile_StoreDelivery ```
+
+3. Install the module and rebuild the DI cache
+
+``` bin/magento setup:upgrade ```
+
+
 ## What is ElasticSuite for Retailers ?
 
 This package is a suite of several modules aiming to help merchants dealing with retail and omnichannel mechanics in Magento 2 (Store Locator, Product availability/price per store, pickup in store, etc...).
@@ -30,7 +67,7 @@ Together we explore, invent, and test technologies of the future, to better serv
 
 ### Current version
 
-The current **1.2.0** version has been focused on two main features :
+The current **1.4.2** version has been focused on two main features :
 
 <br/>
 
