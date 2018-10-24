@@ -42,6 +42,14 @@ The module requires :
 
 ``` bin/magento setup:upgrade ```
 
+## How to configure
+
+> Stores > Configuration > Elasticsuite > Elastic Suite for Retailer
+
+Navigation mode : Retailer/Drive   
+    * Drive mode : the customer will only see the catalog of the chosen retailer in Front Office.    
+    * Retail mode : the customer will browse the Web catalog by default.   
+Display offers on product page : Yes/No (When enabled, offers of all stores will be displayed on product page.)
 
 ## What is ElasticSuite for Retailers ?
 
