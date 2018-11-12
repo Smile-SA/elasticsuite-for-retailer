@@ -18,6 +18,8 @@ The module requires :
 - [Retailer Offer](https://github.com/Smile-SA/magento2-module-retailer-offer) > 1.3.*
 - [Store Delivery](https://github.com/Smile-SA/magento2-module-store-delivery) > 1.1.*
 
+It's a toolkit module to install the RetailerSuite modules.
+
 ### How to use
 
 1. Install the module via Composer :
