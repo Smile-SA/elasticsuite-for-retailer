@@ -17,6 +17,8 @@ The module requires :
 - [Store Locator](https://github.com/Smile-SA/magento2-module-store-locator) > 1.3.*
 - [Retailer Offer](https://github.com/Smile-SA/magento2-module-retailer-offer) > 1.3.*
 - [Store Delivery](https://github.com/Smile-SA/magento2-module-store-delivery) > 1.1.*
+- [Retailer Offer Inventory](https://github.com/Smile-SA/magento2-module-retailer-offer-inventory) > 1.0.*
+- [Retailer Admin](https://github.com/Smile-SA/magento2-module-retailer-admin) > 1.0.*
 
 It's a toolkit module to install the RetailerSuite modules.
 
@@ -39,6 +41,10 @@ It's a toolkit module to install the RetailerSuite modules.
 ``` bin/magento module:enable Smile_RetailerOffer ```
 
 ``` bin/magento module:enable Smile_StoreDelivery ```
+
+``` bin/magento module:enable Smile_RetailerOfferInventory ```
+
+``` bin/magento module:enable Smile_RetailerAdmin ```
 
 3. Install the module and rebuild the DI cache
 
