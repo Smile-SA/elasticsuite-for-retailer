@@ -15,7 +15,7 @@ The module requires :
 - [Seller](https://github.com/Smile-SA/magento2-module-seller) > 1.2.*
 - [Retailer](https://github.com/Smile-SA/magento2-module-retailer) > 1.2.*
 - [Store Locator](https://github.com/Smile-SA/magento2-module-store-locator) > 1.3.*
-- [Retailer Offer](https://github.com/Smile-SA/magento2-module-retailer-offer) = 1.3.*
+- [Retailer Offer](https://github.com/Smile-SA/magento2-module-retailer-offer) = 1.4.*
 - [Store Delivery](https://github.com/Smile-SA/magento2-module-store-delivery) > 1.1.*
 
 It's a toolkit module to install the RetailerSuite modules.
@@ -24,7 +24,13 @@ It's a toolkit module to install the RetailerSuite modules.
 
 1. Install the module via Composer :
 
-``` composer require smile/elasticsuite-for-retailer ```
+
+ElasticSuite Version   | Module Version
+-----------------------|------------------------------------------------------------------------
+ElasticSuite **2.1.x** |Latest release : ```composer require smile/module-retailer-offer:"~1.3.0"```
+ElasticSuite **2.3.x** |Latest release : ```composer require smile/module-retailer-offer:"~1.3.0"```
+ElasticSuite **2.6.x** |Latest release : ```composer require smile/module-retailer-offer:"~1.3.0"```
+ElasticSuite **2.7.x** |Latest release : ```composer require smile/module-retailer-offer:"~1.4.0"```
 
 2. Enable it
 
