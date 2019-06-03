@@ -27,10 +27,10 @@ It's a toolkit module to install the RetailerSuite modules.
 
 ElasticSuite Version   | Module Version
 -----------------------|------------------------------------------------------------------------
-ElasticSuite **2.1.x** |Latest release : ```composer require smile/module-retailer-offer:"~1.3.0"```
-ElasticSuite **2.3.x** |Latest release : ```composer require smile/module-retailer-offer:"~1.3.0"```
-ElasticSuite **2.6.x** |Latest release : ```composer require smile/module-retailer-offer:"~1.3.0"```
-ElasticSuite **2.7.x** |Latest release : ```composer require smile/module-retailer-offer:"~1.4.0"```
+ElasticSuite **2.1.x** |Latest release : ```composer require smile/elasticsuite-for-retailer:"^1.4"```
+ElasticSuite **2.3.x** |Latest release : ```composer require smile/elasticsuite-for-retailer:"^1.4"```
+ElasticSuite **2.6.x** |Latest release : ```composer require smile/elasticsuite-for-retailer:"^1.4"```
+ElasticSuite **2.7.x** |Latest release : ```composer require smile/elasticsuite-for-retailer:"~1.5.0"```
 
 2. Enable it
 
