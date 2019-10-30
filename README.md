@@ -13,10 +13,10 @@ The module requires :
 - [ElasticSuite](https://github.com/Smile-SA/elasticsuite) > 2.3.3*
 - [Offer](https://github.com/Smile-SA/magento2-module-offer) > 1.3.*
 - [Seller](https://github.com/Smile-SA/magento2-module-seller) > 1.2.*
-- [Retailer](https://github.com/Smile-SA/magento2-module-retailer) > 1.2.*
+- [Retailer](https://github.com/Smile-SA/magento2-module-retailer) > 2.0.*
 - [Store Locator](https://github.com/Smile-SA/magento2-module-store-locator) > 1.3.*
 - [Retailer Offer](https://github.com/Smile-SA/magento2-module-retailer-offer) = 1.4.*
-- [Store Delivery](https://github.com/Smile-SA/magento2-module-store-delivery) > 1.1.*
+- [Store Delivery](https://github.com/Smile-SA/magento2-module-store-delivery) > 1.2.*
 
 It's a toolkit module to install the RetailerSuite modules.
 
