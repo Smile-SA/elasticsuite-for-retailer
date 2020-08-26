@@ -15,7 +15,7 @@ The module requires :
 - [Seller](https://github.com/Smile-SA/magento2-module-seller) > 1.2.*
 - [Retailer](https://github.com/Smile-SA/magento2-module-retailer) > 1.2.*
 - [Store Locator](https://github.com/Smile-SA/magento2-module-store-locator) > 1.3.*
-- [Retailer Offer](https://github.com/Smile-SA/magento2-module-retailer-offer) = 1.5.*
+- [Retailer Offer](https://github.com/Smile-SA/magento2-module-retailer-offer) > 1.6.*
 - [Store Delivery](https://github.com/Smile-SA/magento2-module-store-delivery) > 1.1.*
 
 It's a toolkit module to install the RetailerSuite modules.
