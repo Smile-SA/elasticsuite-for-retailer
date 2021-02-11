@@ -35,14 +35,18 @@
         "smile/module-offer": "~1.4.0",
         "smile/module-seller": "~1.2.0",
         "smile/module-retailer": "~1.2.0",
-        "smile/module-store-locator": "~2.0",
-        "smile/module-retailer-offer": "~1.6.0",
+        "smile/module-store-locator": "~2.0.0",
+        "smile/module-retailer-offer": "~1.7.0",
         "smile/module-store-delivery": "~1.1.0"
     },
     "require-dev": {
         "smile/magento2-smilelab-quality-suite": "1.0.0"
     },
     "suggest": {
-        "smile/module-retailer-offer-inventory": "Add inventory management by offers"
+        "smile/module-retailer-offer-inventory": "Add inventory management by offers",
+        "smile/module-retailer-elasticsuite-search": "Index retailers into the search engine and display them into autocomplete and search result.",
+        "smile/module-retailer-service": "Add the ability to add services per retailer",
+        "smile/module-retailer-promotion": "Add the ability to add promotion per retailer",
+        "smile/module-retailer-admin": "Add the ability to manage ACL in admin panel per retailer"
     }
 }
