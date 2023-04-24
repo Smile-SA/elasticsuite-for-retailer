@@ -10,13 +10,13 @@ If your project is based on Magento 2.1.x you can start working with ElasticSuit
 
 The module requires :
 
-- [ElasticSuite](https://github.com/Smile-SA/elasticsuite) > 2.3.3*
-- [Offer](https://github.com/Smile-SA/magento2-module-offer) > 1.4.*
-- [Seller](https://github.com/Smile-SA/magento2-module-seller) > 1.2.*
-- [Retailer](https://github.com/Smile-SA/magento2-module-retailer) > 1.2.*
+- [ElasticSuite](https://github.com/Smile-SA/elasticsuite) > 2.11.*
+- [Offer](https://github.com/Smile-SA/magento2-module-offer) > 2.1.*
+- [Seller](https://github.com/Smile-SA/magento2-module-seller) > 2.0.*
+- [Retailer](https://github.com/Smile-SA/magento2-module-retailer) > 2.0.*
 - [Store Locator](https://github.com/Smile-SA/magento2-module-store-locator) > 2.0.*
-- [Retailer Offer](https://github.com/Smile-SA/magento2-module-retailer-offer) > 1.7.*
-- [Store Delivery](https://github.com/Smile-SA/magento2-module-store-delivery) > 1.1.*
+- [Retailer Offer](https://github.com/Smile-SA/magento2-module-retailer-offer) > 2.0.*
+- [Store Delivery](https://github.com/Smile-SA/magento2-module-store-delivery) > 2.0.*
 
 It's a toolkit module to install the RetailerSuite modules.
 
@@ -33,6 +33,7 @@ ElasticSuite **2.6.x** |Latest release : ```composer require smile/elasticsuite-
 ElasticSuite **2.7.x** |Latest release : ```composer require smile/elasticsuite-for-retailer:"~1.5.0"```
 ElasticSuite **2.8.x** |Latest release : ```composer require smile/elasticsuite-for-retailer:"~1.6.0"```
 ElasticSuite **2.9.x** |Latest release : ```composer require smile/elasticsuite-for-retailer:"~2.2.0"```
+ElasticSuite **2.11.x** |Latest release : ```composer require smile/elasticsuite-for-retailer:"~2.3.0"```
 
 2. Enable it
 
