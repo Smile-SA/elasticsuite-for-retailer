@@ -33,6 +33,7 @@
         "php": "^8.1",
         "magento/framework": ">=103.0.4",
         "magento/magento-composer-installer": "*",
+        "smile/elasticsuite": "^2.11",
         "smile/module-offer": "~2.1.0",
         "smile/module-seller": "~2.0.0",
         "smile/module-retailer": "~2.0.0",
