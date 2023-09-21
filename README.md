@@ -8,33 +8,35 @@ If your project is based on Magento 2.1.x you can start working with ElasticSuit
 
 ### Requirements
 
-The module requires :
+The module requires:
 
-- [ElasticSuite](https://github.com/Smile-SA/elasticsuite) > 2.3.3*
-- [Offer](https://github.com/Smile-SA/magento2-module-offer) > 1.4.*
-- [Seller](https://github.com/Smile-SA/magento2-module-seller) > 1.2.*
-- [Retailer](https://github.com/Smile-SA/magento2-module-retailer) > 1.2.*
-- [Store Locator](https://github.com/Smile-SA/magento2-module-store-locator) > 2.0.*
-- [Retailer Offer](https://github.com/Smile-SA/magento2-module-retailer-offer) > 1.7.*
-- [Store Delivery](https://github.com/Smile-SA/magento2-module-store-delivery) > 1.1.*
+- [ElasticSuite](https://github.com/Smile-SA/elasticsuite) > 2.11.*
+- [Offer](https://github.com/Smile-SA/magento2-module-offer) > 2.0.*
+- [Seller](https://github.com/Smile-SA/magento2-module-seller) > 2.0.*
+- [Retailer](https://github.com/Smile-SA/magento2-module-retailer) > 2.0.*
+- [Store Locator](https://github.com/Smile-SA/magento2-module-store-locator) > 2.2.*
+- [Retailer Offer](https://github.com/Smile-SA/magento2-module-retailer-offer) > 2.0.*
+- [Store Delivery](https://github.com/Smile-SA/magento2-module-store-delivery) > 2.0.*
 
 It's a toolkit module to install the RetailerSuite modules.
 
 ### How to use
 
-1. Install the module via Composer :
+1. Install the module via Composer:
 
 
 ElasticSuite Version   | Module Version
 -----------------------|------------------------------------------------------------------------
-ElasticSuite **2.1.x** |Latest release : ```composer require smile/elasticsuite-for-retailer:"^1.4"```
-ElasticSuite **2.3.x** |Latest release : ```composer require smile/elasticsuite-for-retailer:"^1.4"```
-ElasticSuite **2.6.x** |Latest release : ```composer require smile/elasticsuite-for-retailer:"^1.4"```
-ElasticSuite **2.7.x** |Latest release : ```composer require smile/elasticsuite-for-retailer:"~1.5.0"```
-ElasticSuite **2.8.x** |Latest release : ```composer require smile/elasticsuite-for-retailer:"~1.6.0"```
-ElasticSuite **2.9.x** |Latest release : ```composer require smile/elasticsuite-for-retailer:"~2.2.0"```
+ElasticSuite **2.1.x** |Latest release: ```composer require smile/elasticsuite-for-retailer:"^1.4"```
+ElasticSuite **2.3.x** |Latest release: ```composer require smile/elasticsuite-for-retailer:"^1.4"```
+ElasticSuite **2.6.x** |Latest release: ```composer require smile/elasticsuite-for-retailer:"^1.4"```
+ElasticSuite **2.7.x** |Latest release: ```composer require smile/elasticsuite-for-retailer:"~1.5.0"```
+ElasticSuite **2.8.x** |Latest release: ```composer require smile/elasticsuite-for-retailer:"~1.6.0"```
+ElasticSuite **2.9.x** |Latest release: ```composer require smile/elasticsuite-for-retailer:"~2.2.0"```
+ElasticSuite **2.11.x** |Latest release: ```composer require smile/elasticsuite-for-retailer:"~2.3.0"```
+ElasticSuite **2.11.x** |Latest release: ```composer require smile/elasticsuite-for-retailer:"~2.4.0"```
 
-2. Enable it
+2. Enable it:
 
 ``` bin/magento module:enable Smile_Offer ```
 
@@ -48,7 +50,15 @@ ElasticSuite **2.9.x** |Latest release : ```composer require smile/elasticsuite-
 
 ``` bin/magento module:enable Smile_StoreDelivery ```
 
-3. Install the module and rebuild the DI cache
+3. Optionnal: Drop old SMILE_RETAILER_ADDRESS_RETAILER_ID unique key
+
+_if you already used older retailersuite modules on your projects, and you want to upgrade it,_
+_before upgrading, you will have to DROP your current UNIQUE KEY from table smile_retailer_address : SMILE_RETAILER_ADDRESS_RETAILER_ID_
+_This is necessary in order to get a db_schema.xml working correctly._
+
+``` ALTER TABLE smile_retailer_address DROP INDEX SMILE_RETAILER_ADDRESS_RETAILER_ID ```
+
+4. Install the module and rebuild the DI cache:
 
 ``` bin/magento setup:upgrade ```
 
@@ -56,10 +66,10 @@ ElasticSuite **2.9.x** |Latest release : ```composer require smile/elasticsuite-
 
 > Stores > Configuration > Elasticsuite > Elastic Suite for Retailer
 
-Navigation mode : Retailer/Drive   
-    * Drive mode : the customer will only see the catalog of the chosen retailer in Front Office.    
-    * Retail mode : the customer will browse the Web catalog by default.   
-Display offers on product page : Yes/No (When enabled, offers of all stores will be displayed on product page.)
+Navigation mode: Retailer/Drive   
+    * Drive mode: the customer will only see the catalog of the chosen retailer in Front Office.    
+    * Retail mode: the customer will browse the Web catalog by default.   
+Display offers on product page: Yes/No (When enabled, offers of all stores will be displayed on product page.)
 
 ## What is ElasticSuite for Retailers ?
 
@@ -85,9 +95,10 @@ Together we explore, invent, and test technologies of the future, to better serv
 
 ### Current version
 
-The current **1.4.2** version has been focused on two main features :
+The current **2.4.0** version has been focused on compatibility with Magento 2.4.6:
 
 <br/>
+Some functionnalities example:
 
 * **Store Locator :**
 
@@ -103,16 +114,16 @@ Your customer will be able to choose his favorite shop and this will keep it dur
 
 <br/>
 
-* **Store Offers :**
+* **Store Offers:**
 
-    This features let you create **specific offers for a given product and a given shop** : you'll be able to define the price and/or the availability for a product in each shop.
+    This features let you create **specific offers for a given product and a given shop**: you'll be able to define the price and/or the availability for a product in each shop.
 
 <p align="center">
     <img alt="Offer Step one" src="doc/static/offer-step-one.png" />
     <img alt="Offer Step two" src="doc/static/offer-step-two.png" />
 </p>
 
-   You will be able to enable an option to filter the navigation of the customer to the products available in his favorite shop :
+   You will be able to enable an option to filter the navigation of the customer to the products available in his favorite shop:
 
 <p align="center">
     <img alt="Shop Availability" src="doc/static/shop-availability.png" />
@@ -120,13 +131,13 @@ Your customer will be able to choose his favorite shop and this will keep it dur
 
 <br/>
 
-The customer will even have the possibility to see **product's availability in the other shops** on the product detail page :
+The customer will even have the possibility to see **product's availability in the other shops** on the product detail page:
 
 <p align="center">
     <img alt="Shop Offer List" src="doc/static/shop-offer-list.png" />
 </p>
 
-* **In Store delivery :**
+* **In Store delivery:**
 
     This feature allow the customer to choose between stores for the shipping address of his order.
 
@@ -141,15 +152,15 @@ This is handled during checkout via a Store chooser in a popin.
     <img alt="Store Delivery" src="doc/static/store-delivery-chooser.png" />
 </p>
 
-### And more to come !
+### And more to come!
 
-The next versions that will be coming will include the following features :
+The next versions that will be coming will include the following features:
 
-* **Shops in autocomplete :**
+* **Shops in autocomplete:**
 
     We plan to add the shops to the autocomplete box results for faster access.
 
-* **And many more !**
+* **And many more!**
 
     We will announce and integrate more features to the roadmap soon.
 
