@@ -50,5 +50,10 @@
         "smile/module-retailer-service": "Add the ability to add services per retailer",
         "smile/module-retailer-promotion": "Add the ability to add promotion per retailer",
         "smile/module-retailer-admin": "Add the ability to manage ACL in admin panel per retailer"
+    },
+    "config": {
+        "allow-plugins": {
+            "magento/composer-dependency-version-audit-plugin": true
+        }
     }
 }
