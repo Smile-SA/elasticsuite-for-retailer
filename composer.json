@@ -34,12 +34,13 @@
         "magento/framework": ">=103.0.4",
         "magento/magento-composer-installer": "*",
         "smile/elasticsuite": "^2.11",
-        "smile/module-offer": "^2.0",
-        "smile/module-seller": "^2.0",
-        "smile/module-retailer": "^2.0",
-        "smile/module-store-locator": "^2.2",
-        "smile/module-retailer-offer": "^2.0",
-        "smile/module-store-delivery": "^2.0"
+        "smile/module-map": "dev-2.1.x",
+        "smile/module-offer": "dev-2.0.x",
+        "smile/module-retailer": "dev-2.0.x",
+        "smile/module-retailer-offer": "dev-2.0.x",
+        "smile/module-seller": "dev-2.0.x",
+        "smile/module-store-delivery": "dev-2.0.x",
+        "smile/module-store-locator": "dev-2.2.x"
     },
     "require-dev": {
         "smile/magento2-smilelab-quality-suite": "^3.0"
