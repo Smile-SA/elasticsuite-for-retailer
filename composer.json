@@ -35,11 +35,11 @@
         "magento/magento-composer-installer": "*",
         "smile/elasticsuite": "^2.11",
         "smile/module-offer": "^2.0",
-        "smile/module-seller": "^2.0",
         "smile/module-retailer": "^2.0",
-        "smile/module-store-locator": "^2.2",
         "smile/module-retailer-offer": "^2.0",
-        "smile/module-store-delivery": "^2.0"
+        "smile/module-seller": "^2.0",
+        "smile/module-store-delivery": "^2.0",
+        "smile/module-store-locator": "^2.2"
     },
     "require-dev": {
         "smile/magento2-smilelab-quality-suite": "^3.0"
