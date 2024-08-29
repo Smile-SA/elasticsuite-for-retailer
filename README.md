@@ -6,6 +6,8 @@ Due to all new paradigms introduced by Magento 2.1 (entity manager, forms based 
 
 If your project is based on Magento 2.1.x you can start working with ElasticSuite for Retailer today using the latest **1.2.0-alpha1 release**.
 
+This module support PHP 8.3
+
 ### Requirements
 
 The module requires:

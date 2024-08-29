@@ -34,6 +34,7 @@
         "magento/framework": ">=103.0.4",
         "magento/magento-composer-installer": "*",
         "smile/elasticsuite": "^2.11",
+        "smile/module-map": "^2.1",
         "smile/module-offer": "^2.0",
         "smile/module-retailer": "^2.0",
         "smile/module-retailer-offer": "^2.0",
