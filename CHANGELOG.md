@@ -3,7 +3,7 @@
 All notable changes to this project will be documented in this file.
 
 ## [2.4.2] - 2024-08-29
-[2.1.2]: https://github.com/Smile-SA/elasticsuite-for-retailer/compare/2.4.1...2.4.2
+[2.4.2]: https://github.com/Smile-SA/elasticsuite-for-retailer/compare/2.4.1...2.4.2
 
 - PHP 8.3 compatibility check
 
